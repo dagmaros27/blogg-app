@@ -90,6 +90,9 @@ Follow these steps to set up the backend system:
 
 ## API Endpoints
 
+## BASE_URL http://localhost:5000/api
+- you can change 5000 with the port your backend is running
+
 ### Authentication
 
 - `POST /auth/register` – Register a new user.
@@ -123,24 +126,4 @@ Follow these steps to set up the backend system:
 - `GET /search/users?name=<query>` – Search for users by name/username.
 - `GET /search/blogs?query=<query>` – Search for blog posts by content, tags, or title.
 
----
 
-## Project Timeline
-
-Estimated implementation time: **3 hours**
-
----
-
-## License
-
-This project is licensed under the MIT License.
-
----
-
-## Contribution
-
-Feel free to fork this repository and submit pull requests to contribute!
-
----
-
-Enjoy building with this Blog Posting Platform backend! 😊
